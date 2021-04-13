@@ -1,0 +1,186 @@
+.navbar {
+    background-color: #5f5f5f;
+}
+
+.row div h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+}
+
+body {
+    font-family: 'Arvo', serif;
+
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 35px !important;
+}
+
+.nav-item {
+    font-family: 'Arvo', serif;
+}
+
+.col-lg-6 button {
+    margin-right: 25px;
+}
+
+.col-lg-6 img {
+
+    border-radius: 5%;
+    margin: 50px auto;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+.tdBarPreview {
+    display: block;
+    margin-top: 20px;
+}
+
+#title {
+    background-image: url(../images/tic-tac-toe.png);
+    height: 900px;
+}
+
+#imgbg {
+    background-image: url(../images/memphis-colorful.png);
+
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+}
+
+#press {
+    margin: 20px auto;
+}
+
+#press img {
+    margin: 3% auto;
+}
+
+#timg {
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    margin-left: 30%;
+}
+
+.timg2 {
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    margin-left: 30%;
+}
+
+@media (min-width: 992px) {
+
+    .rotateMobile {
+        transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        /* IE 9 */
+        -moz-transform: rotate(5deg);
+        /* Firefox */
+        -webkit-transform: rotate(5deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(5deg);
+        /* Opera */
+        
+    }
+    .mecol{
+        margin-top: 6%;    }
+}
+
+#features {
+    padding: 7% 5%;
+    text-align: center;
+
+}
+
+#features h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+#carousel-img h2 {
+    font-size: 2rem;
+
+}
+
+.padme {
+    margin-top: 7% ;
+    margin-left: 10%;
+}
+
+@media (min-width: 992px){
+    .card {
+        margin: 10px 4.1% !important ;
+    
+    }
+}
+@media only screen and (min-width: 768px)  {
+    .card {
+        margin: 10px 35px;
+    }
+    #card3{
+        margin-left: 17% ;
+    }
+}
+@media (max-width:767px){
+    .card{
+        margin-left: 8%;
+    }
+}
+.dognames h3{
+    font-family: 'Satisfy', cursive;
+
+}
+#pricing{
+    background-image: url(../images/geometric-leaves.png);
+}
+#cta button{
+    margin-right: 25px;
+   
+}
+#footer{
+    background-color:#8f8f8f ;
+    padding:7% 15%;
+    text-align: center;
+}
+.navbar-nav>li{
+    border-right: 3px solid #8f8f8f;
+  }
+  .navbar-nav>li:last-child{
+    border: none;
+ }
+ #footer div a{
+     margin:auto 1.2%;
+ }
+ 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #8f8f8f;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #8f8f8f;
+}
+ 
+    
+    
